@@ -1,0 +1,54 @@
+button {
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+.btn-type-default {
+  color: rgb(0 0 0%);
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+}
+.btn-type-default:active {
+  background-color: #c3c3c3;
+}
+.btn-type-primary {
+  color: #fff;
+  background-color: rgb(51 146 7);
+}
+.btn-type-primary:active {
+  background-color: aquamarine;
+}
+.btn-type-dashed {
+  color: rgb(0 0 0%);
+  background-color: #fff;
+  border: 1px dashed #cfcfcf;
+}
+.btn-type-dashed:active {
+  background-color: #c3c3c3;
+}
+.btn-type-link {
+  color: rgb(0 0 0%);
+  color: rgb(51 146 7);
+  background-color: #fff;
+}
+.btn-type-link:active {
+  color: aquamarine;
+}
+.btn-shape-round {
+  border-radius: 2px;
+}
+.btn-shape-circle {
+  min-width: 32px;
+  border-radius: 50%;
+}
+.btn-size-small {
+  padding: 2px 8px;
+}
+.btn-size-middle {
+  padding: 4px 12px;
+}
+.btn-size-large {
+  padding: 6px 16px;
+}
