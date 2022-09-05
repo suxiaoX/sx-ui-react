@@ -1,15 +1,29 @@
-0 silly argv {
-0 silly argv   _: [ 'ls' ],
-0 silly argv   json: true,
-0 silly argv   all: true,
-0 silly argv   a: true,
-0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': '/Users/suxiao/learnplace/react/cfc-ui-react/node_modules/.bin/lerna'
-0 silly argv }
-1 notice cli v4.0.0
-2 verbose rootPath /Users/suxiao/learnplace/react/cfc-ui-react
-3 info versioning independent
-4 error JSONError: Unexpected end of JSON input while parsing empty string in packages/alert/package.json
-4 error     at parseJson (/Users/suxiao/learnplace/react/cfc-ui-react/node_modules/load-json-file/node_modules/parse-json/index.js:29:21)
-4 error     at parse (/Users/suxiao/learnplace/react/cfc-ui-react/node_modules/load-json-file/index.js:15:9)
-4 error     at module.exports (/Users/suxiao/learnplace/react/cfc-ui-react/node_modules/load-json-file/index.js:18:47)
+36 error Error: Command failed with exit code 1: git commit -m vnull
+36 error  > running pre-commit hook: lint-staged
+36 error ℹ No staged files match any configured task.
+36 error  > running commit-msg hook: fabric verify-commit
+36 error
+36 error    ERROR  提交日志不符合规范
+36 error
+36 error   合法的提交日志格式如下(emoji 和 模块可选填)：
+36 error
+36 error
+36 error         [<emoji>] [revert: ?]<type>[(scope)?]: <message>
+36 error
+36 error         💥 feat(模块): 添加了个很棒的功能
+36 error         🐛 fix(模块): 修复了一些 bug
+36 error         📝 docs(模块): 更新了一下文档
+36 error         🌷 UI(模块): 修改了一下样式
+36 error         🏰 chore(模块): 对脚手架做了些更改
+36 error         🌐 locale(模块): 为国际化做了微小的贡献
+36 error
+36 error         其他提交类型: refactor, perf, workflow, build, CI, typos, tests, types, wip, release, dep
+36 error
+36 error         See https://github.com/vuejs/core/blob/main/.github/commit-convention.md
+36 error
+36 error
+36 error commit-msg hook failed (add --no-verify to bypass)
+36 error     at makeError (/Users/suxiao/learnplace/react/cfc-ui-react/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:60:11)
+36 error     at handlePromise (/Users/suxiao/learnplace/react/cfc-ui-react/node_modules/@lerna/child-process/node_modules/execa/index.js:118:26)
+36 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+36 error     at async Promise.all (index 0)
