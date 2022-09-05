@@ -1,6 +1,6 @@
 {
   "name": "@micfc/alert",
-  "version": null,
+  "version": "0.0.1",
   "keywords": [],
   "license": "MIT",
   "main": "lib/index.js",

@@ -1,6 +1,6 @@
 {
   "name": "@micfc/tag",
-  "version": null,
+  "version": "0.0.1",
   "keywords": [],
   "license": "MIT",
   "main": "lib/index.js",
@@ -15,6 +15,10 @@
     "antd": "4.x",
     "react": ">=17.0.2",
     "react-dom": ">=17.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suxiaoX/sx-ui-react"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",

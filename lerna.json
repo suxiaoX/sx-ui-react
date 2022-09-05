@@ -4,7 +4,10 @@
   "command": {
     "publish": "https://registry.npmjs.org/"
   },
-  "version": null,
+  "version": {
+    "conventionalCommits": true,
+    "message": "chore(release): publish"
+  },
   "changelog": {},
   "ignoreChanges": [
     "**/*.md",
