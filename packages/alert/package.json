@@ -20,6 +20,10 @@
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suxiaoX/sx-ui-react"
+  },
   "dependencies": {
     "classnames": "^2.3.1"
   }

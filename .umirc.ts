@@ -10,12 +10,12 @@ const tailPkgList = pkgList
   .map((path) => [join('packages', path)])
   .reduce((acc, val) => acc.concat(val), []);
 
-const alias = pkgList.reduce((pre, pkg) => {
+/* const alias = pkgList.reduce((pre, pkg) => {
   pre[`@ant-design/pro-${pkg}`] = join(__dirname, 'packages', pkg);
   return {
     ...pre,
   };
-}, {});
+}, {}); */
 
 const isProduction = process.env.NODE_ENV === 'production';
 

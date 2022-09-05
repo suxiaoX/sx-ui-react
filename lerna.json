@@ -1,9 +1,14 @@
 {
-  "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "changelog": {
+  "command": {
+    "publish": "https://registry.npmjs.org/"
   },
+  "version": {
+    "conventionalCommits": true,
+    "message": "chore(release): publish"
+  },
+  "changelog": {},
   "ignoreChanges": [
     "**/*.md",
     "**/*.test.ts",

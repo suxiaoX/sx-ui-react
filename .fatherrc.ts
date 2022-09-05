@@ -57,10 +57,15 @@ export default {
   // cssModules: true,
   extractCSS: false,
   lessInBabelMode: true,
-  entry: ['packages/button/index.tsx', 'packages/tag/index.tsx', 'packages/alert/index.tsx'],
+  // runtimeHelpers: true,
+  // entry: ['packages/button/index.tsx', 'packages/tag/index.tsx', 'packages/alert/index.tsx'],
+  entry: 'packages/index.tsx',
   autoprefixer: {
     browsers: ['ie>9', 'Safari >= 6'],
   },
+  extraBabelPlugins: [
+    ['babel-plugin-import', { libraryName: 'antd', libraryDirectory: 'es', style: true }, 'antd'],
+  ],
   pkgs: [
     // 组件依赖构建顺序
     ...headPkgs,

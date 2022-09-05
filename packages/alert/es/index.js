@@ -1,3 +1,5 @@
+import 'antd/es/alert/style';
+import _Alert from 'antd/es/alert';
 var _excluded = ['children'];
 
 function ownKeys(object, enumerableOnly) {
@@ -73,14 +75,13 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 
 import React from 'react';
-import { Alert as AntdAlert } from 'antd';
 import './index.css';
 
 var Alert = function Alert(props) {
   var children = props.children,
-    rest = _objectWithoutProperties(props, _excluded); // 使用AntdButton
+    rest = _objectWithoutProperties(props, _excluded); // 使用AntdAlert
 
-  return /*#__PURE__*/ React.createElement(AntdAlert, _objectSpread({}, rest), children);
+  return /*#__PURE__*/ React.createElement(_Alert, _objectSpread({}, rest), children);
 };
 
 export default Alert;

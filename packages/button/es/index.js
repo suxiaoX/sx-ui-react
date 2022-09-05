@@ -1,3 +1,5 @@
+import 'antd/es/button/style';
+import _Button from 'antd/es/button';
 var _excluded = ['children'];
 
 function ownKeys(object, enumerableOnly) {
@@ -103,15 +105,14 @@ const CfcButton: FC<ButtonProps> = (props) => {
 };
 export default CfcButton; */
 import React from 'react';
-import { Button as AntdButton } from 'antd'; // 引入less样式
-
+// 引入less样式
 import './index.css';
 
 var Button = function Button(props) {
   var children = props.children,
     rest = _objectWithoutProperties(props, _excluded); // 使用AntdButton
 
-  return /*#__PURE__*/ React.createElement(AntdButton, _objectSpread({}, rest), children);
+  return /*#__PURE__*/ React.createElement(_Button, _objectSpread({}, rest), children);
 };
 
 export default Button;
