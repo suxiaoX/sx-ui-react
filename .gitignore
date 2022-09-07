@@ -21,6 +21,9 @@
 .umi-test
 .env.local
 
+# lerna
+.lerna-debug.log
+
 # ide
 /.vscode
 /.idea
