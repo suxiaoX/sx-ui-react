@@ -1,6 +1,6 @@
 {
   "name": "@micfc/tag",
-  "version": "0.0.6",
+  "version": "0.0.7-alpha.11+a040b81",
   "keywords": [],
   "license": "MIT",
   "main": "lib/index.js",
@@ -23,5 +23,6 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
-  }
+  },
+  "gitHead": "a040b81db64ba4cc461142b191b821dc0222e08c"
 }

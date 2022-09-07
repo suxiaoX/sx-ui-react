@@ -3,6 +3,11 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
+    "ignoreChange": [
+      ".gitignore",
+      ".log",
+      ".md"
+    ],
     "publish": "https://registry.npmjs.org/"
   },
   "changelog": {},
