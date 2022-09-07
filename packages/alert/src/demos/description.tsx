@@ -1,4 +1,4 @@
-import Alert from '@micfc/alert';
+import Alert from '@micfc/alert/src';
 import React from 'react';
 
 const App: React.FC = () => (

@@ -1,4 +1,4 @@
-36 error Error: Command failed with exit code 1: git commit -m vnull
+36 error Error: Command failed with exit code 1: git commit -F /private/var/folders/46/fpwv1k_d36qfmt6bfwgd12lc0000gn/T/5473c8a1-c628-4baf-b0d7-e810897a5372/lerna-commit.txt
 36 error  > running pre-commit hook: lint-staged
 36 error ℹ No staged files match any configured task.
 36 error  > running commit-msg hook: fabric verify-commit

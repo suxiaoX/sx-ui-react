@@ -1,5 +1,5 @@
 import React from 'react';
-import Alert from '@micfc/alert';
+import Alert from '@micfc/alert/src';
 
 const Basic: React.FC = () => (
   <>

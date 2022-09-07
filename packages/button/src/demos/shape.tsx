@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@micfc/button';
+import Button from '@micfc/button/src';
 
 const Basic: React.FC<any> = ({}) => {
   return (
