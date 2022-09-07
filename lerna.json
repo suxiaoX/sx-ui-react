@@ -1,24 +1,19 @@
 {
   "version": "independent",
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "useWorkspaces": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "command": {
-    "ignoreChange": [
-      ".gitignore",
-      ".log",
-      ".md"
-    ],
     "publish": "https://registry.npmjs.org/"
   },
   "changelog": {},
   "ignoreChanges": [
     "**/*.md",
-    "**/*.test.ts",
-    "**/*.e2e.ts",
     "**/demos/**",
-    "**/fixtures/**",
-    "**/dist/**",
-    "**/lib/**",
+    "**/docs/**",
+    "**/docs-list/**",
     "**/es/**",
     "**/test/**"
   ]

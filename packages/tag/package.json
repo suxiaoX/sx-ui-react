@@ -1,6 +1,6 @@
 {
   "name": "@micfc/tag",
-  "version": "0.0.7-alpha.11+a040b81",
+  "version": "0.0.7",
   "keywords": [],
   "license": "MIT",
   "main": "lib/index.js",
