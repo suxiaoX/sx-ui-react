@@ -23,12 +23,14 @@
     "lint:prettier": "npm run prettier &&  git diff && prettier --version && prettier --check \"packages/**/**.{js,jsx,tsx,ts,less,md,json}\" --end-of-line auto",
     "prettier": "prettier --write \"**/**.{js,jsx,tsx,ts,less,md,json}\" --loglevel warn",
     "size": "npm run build && size-limit",
-    "size:build": "cross-env PRO_COMPONENTS_CI='CI' webpack"
+    "size:build": "cross-env PRO_COMPONENTS_CI='CI' webpack",
+    "lerna: publish": "lerna publish"
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "commit-msg": "fabric verify-commit"
   },
   "lint-staged": {
     "packages/**/*.{js,ts,jsx,tsx, md, json}": [
