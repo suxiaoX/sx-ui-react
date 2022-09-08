@@ -7,7 +7,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "test"
+    "url": "https://github.com/suxiaoX/sx-ui-react.git"
   },
   "scripts": {
     "start": "dumi dev",
