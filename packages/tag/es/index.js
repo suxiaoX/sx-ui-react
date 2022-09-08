@@ -17,7 +17,7 @@ import "./index.css";
 
 var Tag = function Tag(props) {
   var children = props.children,
-      rest = _objectWithoutProperties(props, _excluded); // 使用AntdAlert
+      rest = _objectWithoutProperties(props, _excluded); // 使用AntdTag
 
 
   return /*#__PURE__*/React.createElement(_Tag, _objectSpread({}, rest), children);
