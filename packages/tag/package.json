@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suxiaoX/sx-ui-react"
+    "url": "https://github.com/suxiaoX/sx-ui-react.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
-  "gitHead": "a040b81db64ba4cc461142b191b821dc0222e08c"
+  "gitHead": "b8a3923892bc6ef7f2e550887e8062a3426b6bcb"
 }
