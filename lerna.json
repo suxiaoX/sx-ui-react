@@ -12,6 +12,12 @@
       "ignoreChanges": [
         "*.md"
       ]
+    },
+    "version": {
+      "allowBranch": [
+        "main",
+        "master"
+      ]
     }
   },
   "changelog": {},
