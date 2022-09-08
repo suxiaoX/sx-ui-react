@@ -24,7 +24,7 @@
     "prettier": "prettier --write \"**/**.{js,jsx,tsx,ts,less,md,json}\" --loglevel warn",
     "size": "npm run build && size-limit",
     "size:build": "cross-env PRO_COMPONENTS_CI='CI' webpack",
-    "lerna: publish": "lerna publish"
+    "lerna:publish": "lerna publish"
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",
