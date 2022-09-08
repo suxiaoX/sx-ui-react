@@ -6,7 +6,9 @@
     "packages/*"
   ],
   "command": {
-    "publish": "https://registry.npmjs.org/"
+    "publish": {
+      "conventionalCommits": true
+    }
   },
   "changelog": {},
   "ignoreChanges": [
@@ -15,6 +17,7 @@
     "**/docs/**",
     "**/docs-list/**",
     "**/es/**",
-    "**/test/**"
+    "**/test/**",
+    "**/node_modules"
   ]
 }

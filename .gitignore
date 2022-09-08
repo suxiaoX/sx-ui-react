@@ -22,7 +22,7 @@
 .env.local
 
 # lerna
-.lerna-debug.log
+lerna-debug.log
 
 # ide
 /.vscode
