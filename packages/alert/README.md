@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const tag = require('@micfc/alert');
+const tag = require('@sx-ui-react/alert');
 
 // TODO: DEMONSTRATE API
 ```

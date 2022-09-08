@@ -1,13 +1,17 @@
 {
   "version": "independent",
-  "npmClient": "npm",
+  "npmClient": "yarn",
   "useWorkspaces": true,
   "workspaces": [
     "packages/*"
   ],
   "command": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "registry": "https://registry.npmjs.org/",
+      "ignoreChanges": [
+        "*.md"
+      ]
     }
   },
   "changelog": {},

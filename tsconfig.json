@@ -16,7 +16,7 @@
       "cfc-ui": [
         "packages/index.tsx"
       ],
-      "@micfc/*": [
+      "@sx-ui-react/*": [
         "packages/*"
       ],
       // "@micfc/button": [

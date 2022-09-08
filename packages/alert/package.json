@@ -1,5 +1,5 @@
 {
-  "name": "@micfc/alert",
+  "name": "@sx-ui-react/alert",
   "version": "0.3.1",
   "keywords": [],
   "license": "MIT",
@@ -27,5 +27,5 @@
   "dependencies": {
     "classnames": "^2.3.1"
   },
-  "gitHead": "b8a3923892bc6ef7f2e550887e8062a3426b6bcb"
+  "gitHead": "41d87948eca6fd5d8a30b23c4f62e4b38c698d7c"
 }
